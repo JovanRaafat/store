@@ -1,6 +1,6 @@
 import Products from "./components/Products";
 import Navbar from "./components/Navbar";
-import Cart from "./components/cart";
+import Cart from "./components/Cart";
 import initialItemsCart from "./itemsCart";
 import { useState } from "react";
 function App() {
