@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+
+:root {
+  /* Light Mode */
+  color-scheme: light;
+  --bg-primary: #F1F5FC;
+  --bg-surface: #FFFFFF;
+  --bg-secondary: #E5EDF8;
+
+  --text-primary: #0F172A;
+  --text-secondary: #64748B;
+
+  --primary: #1677F9;
+  --primary-hover: #0D5FD7;
+
+  --border-color: #E5EDF8;
+}
+
+.dark-mode {
+  /* Dark Mode */
+  color-scheme: dark;
+  --bg-primary: #081426;
+  --bg-surface: #10213A;
+  --bg-secondary: #223550;
+
+  --text-primary: #F1F5F9;
+  --text-secondary: #9CAEC6;
+
+  --primary: #1677F9;
+  --primary-hover: #3B8BFF;
+
+
+  --border-color: #223550;
+}
