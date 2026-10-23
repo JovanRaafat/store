@@ -1,6 +1,6 @@
 import React from 'react'
 import products from './products/products';
-import Product from './products/product';
+import Product from './products/Product';
 const Products = ({ itemsCart, setItemsCart }) => {
   return (
 
