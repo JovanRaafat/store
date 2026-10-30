@@ -8,7 +8,7 @@ const product = ({ name, price, image, id, setItemsCart, itemsCart }) => {
       setItemsCart((prev) =>
         prev.map((item) =>
           item.id === id
-            ? { ...item, items: ++item.items }
+            ? { ...item, items: item.items + 1 }
             : item
         )
       )

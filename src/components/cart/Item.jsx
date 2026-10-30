@@ -14,7 +14,7 @@ const Item = ({ name, price, image, items, id, setItemsCart }) => {
     setItemsCart((prev) =>
       prev.map((item) =>
         item.id === id
-          ? { ...item, items: ++item.items }
+          ? { ...item, items: item.items + 1 }
           : item
       )
     ))
@@ -25,7 +25,7 @@ const Item = ({ name, price, image, items, id, setItemsCart }) => {
       setItemsCart((prev) =>
         prev.map((item) =>
           item.id === id
-            ? { ...item, items: --item.items }
+            ? { ...item, items: item.items - 1 }
             : item
         )
       );
